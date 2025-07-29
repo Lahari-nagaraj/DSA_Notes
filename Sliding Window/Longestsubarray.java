@@ -4,7 +4,7 @@
 //Level - Medium
 //Approach - Use a sliding window approach with a hash set to track characters in the current window. Expand the window by moving the end pointer and contract it by moving the start pointer when a duplicate is found.
 
-#import java.util.*;
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
       Set<Character> seen = new HashSet<>();
